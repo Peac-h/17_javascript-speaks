@@ -1,0 +1,40 @@
+.controls {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+
+  .speed-input {
+    background: transparent;
+    border-radius: 1rem;
+    font-size: inherit;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.5rem 0rem;
+    color: inherit;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .btn {
+    font-family: inherit;
+    color: #000;
+    border: none;
+    background: rgba(253, 115, 108, 0.7);
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    outline: none;
+    transition: background 0.5s ease;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+      background: var(--color-main);
+      transform: scale(1.1) rotate(-5deg);
+    }
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+}

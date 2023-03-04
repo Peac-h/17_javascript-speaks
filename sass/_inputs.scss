@@ -1,0 +1,32 @@
+.textarea {
+  height: 40vh;
+  width: 100%;
+  padding: 0 3rem;
+
+  font-family: inherit;
+  font-size: inherit;
+  color: var(--color-text);
+
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  resize: none;
+
+  transition: all 0.2s;
+
+  &:focus {
+    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.5);
+    transform: scaleX(1.1);
+  }
+  &:focus ~ .author {
+    transform: translateY(2rem);
+    opacity: 0;
+  }
+  &::placeholder {
+    color: var(--color-disabled);
+  }
+  &:disabled {
+    color: var(--color-disabled);
+  }
+}

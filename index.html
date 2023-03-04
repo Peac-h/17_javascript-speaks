@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Todo App, coded by the Peach." />
+    <meta name="keywords" content="HTML, CSS, Sass, Javascript, Coding" />
+    <meta name="author" content="the Peach" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barrio&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="fav/site.webmanifest" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+
+    <title>Javascript Speaks</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <h1>Javascript speaks...</h1>
+      </header>
+      <main>
+        <div class="inputs">
+          <textarea
+            id="text"
+            class="textarea"
+            placeholder="here goes your text, my love..."
+          ></textarea>
+          <p class="author">
+            Coded by <a href="https://github.com/Peac-h">the Peach</a>
+          </p>
+        </div>
+        <div class="controls">
+          <label class="speed-label" for="speed">Speed:</label>
+          <input
+            class="speed-input"
+            type="number"
+            name="speed"
+            id="speed"
+            min=".5"
+            max="3"
+            step=".5"
+            value="1"
+          />
+          <button class="btn" id="play-button">Play</button>
+          <button class="btn" id="pause-button">Pause</button>
+          <button class="btn" id="cancel-button">Cancel</button>
+          <button class="btn" id="clear-button">Clear</button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
