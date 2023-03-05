@@ -27,7 +27,7 @@
     outline: none;
     transition: background 0.5s ease;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: 0.5s;
 
     &:hover {
       background: var(--color-main);
@@ -35,6 +35,7 @@
     }
     &:active {
       transform: scale(0.95);
+      transition: 0s;
     }
   }
 }
