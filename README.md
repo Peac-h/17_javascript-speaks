@@ -10,7 +10,7 @@ Responsive for all screen sizes, without a single media query.
 
 ## Checkout the live demo
 
-[Javascript Speaks]()
+[Javascript Speaks](https://peac-h.github.io/17_javascript-speaks/)
 
 ## Built with
 
