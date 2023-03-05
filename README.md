@@ -2,7 +2,7 @@
 
 This is Javascript Speaker App built with the `SpeechSynthesis` interface.
 
-The App reads the given text and gives such controllers as - play, pause, cancel, clear, speach speed.
+The App reads the given text and has such controllers as - play, pause, cancel, clear, speech speed. Text can be paused, canceled or cleared any time. The speech speed can also be changed any time, even when in progress.
 
 Responsive for all screen sizes, without a single media query.
 
