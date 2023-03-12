@@ -10,7 +10,9 @@ Responsive for all screen sizes, without a single media query.
 
 ## Checkout the live demo
 
-[Javascript Speaks](https://peac-h.github.io/17_javascript-speaks/)
+[Javascript Speaks](https://raw.githubusercontent.com/Peac-h/17_javascript-speaks/main/Screenshot.png)
+
+![Javascript Speaks](https://octodex.github.com/images/minion.png)
 
 ## Built with
 
